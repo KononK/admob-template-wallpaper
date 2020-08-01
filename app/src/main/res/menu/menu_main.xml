@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sakakibara.wallpaper.MainActivity">
+
+    <item android:id="@+id/btn_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/share"/>
+
+    <item android:id="@+id/btn_save"
+        android:title="@string/save"
+        app:showAsAction="always"
+        android:icon="@drawable/download"/>
+
+</menu>
