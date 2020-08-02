@@ -8,5 +8,7 @@
 4. Update `populateList` function, replace imagesUrl data with your data
 5. Open `app/src/main/res/values/strings.xml`
 6. Update `app_name` with your application name, `ad_app_id` with your admob application id, `banner_ad_unit_id` with your admob banner unit id
-7. Update application icon & package
-8. Generate APK, sign, upload to playstore, then start monetizing
+7. Open `app/build.gradle`
+8. Update `android.defaultConfig.applicationId` with your application package name
+9. Update application icon on `app/src/res/mipmap-*`
+10. Generate APK, sign, upload to playstore, then start monetizing
